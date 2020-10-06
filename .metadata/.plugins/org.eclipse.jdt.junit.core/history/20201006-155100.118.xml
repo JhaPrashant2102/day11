@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaxGenericClassTest" project="dummyproject" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.dummyproject.MaxGenericClassTest" time="0.005">
+    <testcase name="maxCheckForThirdPositionForInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.001"/>
+    <testcase name="maxCheckForSecondPositionForFloat" classname="com.dummyproject.MaxGenericClassTest" time="0.001"/>
+    <testcase name="maxCheckForFirstPositionforInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.001"/>
+    <testcase name="maxCheckForSecondPositionForInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.0"/>
+    <testcase name="maxCheckForThirdPositionForFloat" classname="com.dummyproject.MaxGenericClassTest" time="0.0"/>
+    <testcase name="maxCheckForFirstPositionForFloat" classname="com.dummyproject.MaxGenericClassTest" time="0.001"/>
+  </testsuite>
+</testrun>
