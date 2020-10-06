@@ -13,8 +13,8 @@ public class MaxInteger {
 		this.n3 = n3;
 	}
 	
-	public Integer findMax() {
-		Integer max = n1;
+	public int findMax() {
+		int max = n1;
 		if(n2.compareTo(max)>0)
 			max = n2;
 		if(n3.compareTo(max)>0)

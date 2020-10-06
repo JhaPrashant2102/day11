@@ -15,29 +15,23 @@ public class MaxIntegerTest {
 	
 	@Test
 	public void maxCheckForFirstPosition() {
-		Integer a = 1;
-		Integer b = 2;
-		Integer c = 3;
+		Integer a = new Integer(1);
+		Integer b = new Integer(2);
+		Integer c = new Integer(3);
 		MaxInteger tester = new MaxInteger(c,b,a);
-		assertEquals(c,tester.findMax());
+		assertEquals((Integer)3,tester.findMax());
 	}
 	
 	@Test
 	public void maxCheckForSecondPosition() {
-		Integer a = 1;
-		Integer b = 2;
-		Integer c = 3;
-		MaxInteger tester = new MaxInteger(a,c,b);
-		assertEquals(c,tester.findMax());
+		MaxInteger tester = new MaxInteger(1,3,2);
+		assertEquals((Integer)3,tester.findMax());
 	}
 	
 	@Test
 	public void maxCheckForThirdPosition() {
-		Integer a = 1;
-		Integer b = 2;
-		Integer c = 3;
-		MaxInteger tester = new MaxInteger(a,b,c);
-		assertEquals(c,tester.findMax());
+		MaxInteger tester = new MaxInteger(1,2,3);
+		assertEquals((Integer)3,tester.findMax());
 	}
 
 }
