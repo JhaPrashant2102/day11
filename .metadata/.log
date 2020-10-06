@@ -34,10 +34,17 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.jobs 4 2 2020-10-06 15:20:42.947
 !MESSAGE An internal error occurred during: "Decoration Calculation".
 !STACK 0
 java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+=======
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-06 16:07:09.308
+!MESSAGE An internal error occurred during: "Decoration Calculation".
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+>>>>>>> master
 	at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:41)
 	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:683)
 	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:204)
@@ -61,6 +68,7 @@ java.lang.OutOfMemoryError: Requested array size exceeds VM limit
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.core.jobs 4 2 2020-10-06 15:22:21.843
 !MESSAGE An internal error occurred during: "Decoration Calculation".
@@ -124,3 +132,5 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+>>>>>>> master
