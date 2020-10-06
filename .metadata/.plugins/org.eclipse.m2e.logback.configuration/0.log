@@ -47,3 +47,8 @@
 2020-10-06 13:14:23,195 [Worker-30: Launching MaxIntegerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-10-06 13:14:23,197 [Worker-30: Launching MaxIntegerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day11\dummyproject\src\main\resources
 2020-10-06 13:14:23,200 [Worker-30: Launching MaxIntegerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-06 13:14:23,200 [Worker-30: Launching MaxIntegerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day11\dummyproject\src\test\resources
+2020-10-06 13:50:41,824 [Worker-41: Launching MaxIntegerTest.maxCheckForSecondPosition] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-06 13:50:41,824 [Worker-41: Launching MaxIntegerTest.maxCheckForSecondPosition] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day11\dummyproject\src\main\resources
+2020-10-06 13:50:41,827 [Worker-41: Launching MaxIntegerTest.maxCheckForSecondPosition] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-06 13:50:41,827 [Worker-41: Launching MaxIntegerTest.maxCheckForSecondPosition] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day11\dummyproject\src\test\resources
