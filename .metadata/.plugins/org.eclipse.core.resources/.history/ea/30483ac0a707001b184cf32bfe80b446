@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.dummyproject;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * @author prashant
+ *
+ */
+public class MaxIntegerTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

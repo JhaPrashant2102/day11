@@ -1,0 +1,17 @@
+package com.dummyproject;
+
+public class PrintArray {
+	
+	public static <T> void printArray(T arr[]) {
+		for(T element : arr) {
+			System.out.println("%s "+element);
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer arr[] = {1,2,4,4,6,9};
+		PrintArray.printArray(arr);
+	}
+
+}

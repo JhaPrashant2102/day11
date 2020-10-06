@@ -1,0 +1,29 @@
+package com.dummyproject;
+
+public class PrintMyArray<T> {
+	
+	T arr[];
+	
+	
+	public PrintMyArray(T[] arr) {
+		this.arr = arr;
+	}
+	
+	private void toPrint() {
+		toPrint(this.arr);
+	}
+	
+	public static <T> void toPrint(T arr[]) {
+		for(T element : arr) {
+			System.out.println("%s "+element);
+		}
+	}
+	
+	public static void main(String[] args) {
+		Integer arr[] = {1,2,4,4,6,9};
+		Double arr2[] =  {1.2,2.3,4.6};
+		new PrintMyArray<Integer>(arr).toPrint();
+		new PrintMyArray<Double>(arr2).toPrint();
+	}
+
+}
