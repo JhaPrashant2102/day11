@@ -12,9 +12,22 @@ import org.junit.Test;
  *
  */
 public class MaxIntegerTest {
+	
 	@Test
-	public void maxOf_1_2_and_3_ShouldReturn_3() {
-		MaxInteger tester = new MaxInteger(1,2,3);
+	public void maxCheckForFirstPosition() {
+		MaxInteger tester = new MaxInteger(3,2,1);
+		assertEquals(3,tester.findMax());
+	}
+	
+	@Test
+	public void maxCheckForSecondPosition() {
+		MaxInteger tester = new MaxInteger(1,3,2);
+		assertEquals(3,tester.findMax());
+	}
+	
+	@Test
+	public void maxCheckForThirdPosition() {
+		MaxInteger tester = new MaxInteger(1,3,2);
 		assertEquals(3,tester.findMax());
 	}
 

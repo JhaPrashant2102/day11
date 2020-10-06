@@ -14,6 +14,11 @@ public class MaxInteger {
 	}
 	
 	public int findMax() {
-		return Math.max(n1, Math.max(n2, n3));
+		int max = n1;
+		if(n2.compareTo(max)>0)
+			max = n2;
+		if(n3.compareTo(max)>0)
+			max = n3;
+		return max;
 	}
 }
