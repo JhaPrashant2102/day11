@@ -1,0 +1,16 @@
+package com.dummyproject;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GenericClassFinalTest {
+
+	@Test
+	public void givenMoreThanThreeArguments_ShouldReturnMax() {
+		GenericClassFinal<Integer> tester = new GenericClassFinal<Integer>(); 
+		tester.maximum(1,2,3,4,5,6,7);
+		assertEquals((Integer)7,tester.getMax());
+	}
+
+}

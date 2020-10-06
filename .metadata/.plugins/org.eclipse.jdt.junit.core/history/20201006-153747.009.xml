@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MaxFloatTest" project="dummyproject" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.dummyproject.MaxFloatTest" time="0.0">
-    <testcase name="maxCheckForFirstPosition" classname="com.dummyproject.MaxFloatTest" time="0.0"/>
-    <testcase name="maxCheckForSecondPosition" classname="com.dummyproject.MaxFloatTest" time="0.0"/>
-    <testcase name="maxCheckForThirdPosition" classname="com.dummyproject.MaxFloatTest" time="0.0"/>
-  </testsuite>
-</testrun>

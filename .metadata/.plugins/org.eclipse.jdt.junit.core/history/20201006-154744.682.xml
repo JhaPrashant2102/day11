@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MaxGenericClassTest" project="dummyproject" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.dummyproject.MaxGenericClassTest" time="0.0">
-    <testcase name="maxCheckForThirdPositionForInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.0"/>
-    <testcase name="maxCheckForFirstPositionforInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.0"/>
-    <testcase name="maxCheckForSecondPositionForInteger" classname="com.dummyproject.MaxGenericClassTest" time="0.0"/>
-  </testsuite>
-</testrun>
