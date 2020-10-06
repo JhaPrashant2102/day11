@@ -1,0 +1,27 @@
+package com.dummyproject;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MaxFloatTest {
+	
+	@Test
+	public void maxCheckForFirstPosition() {
+		MaxFloat tester = new MaxFloat(3,2,1);
+		assertEquals((Integer)3,tester.findMax());
+	}
+	
+	@Test
+	public void maxCheckForSecondPosition() {
+		MaxFloat tester = new MaxFloat(1.32,3.32,2.25);
+		assertEquals(3.32,tester.findMax());
+	}
+	
+	@Test
+	public void maxCheckForThirdPosition() {
+		MaxFloat tester = new MaxFloat(1.3,2.1,3.2);
+		assertEquals((Integer)3,tester.findMax());
+	}
+
+}
