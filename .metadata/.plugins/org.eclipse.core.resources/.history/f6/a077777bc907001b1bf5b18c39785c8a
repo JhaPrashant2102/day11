@@ -1,0 +1,34 @@
+package com.dummyproject;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MaxNewGenericClassTest {
+	@Test
+	public void maxCheckForFirstPositionforInteger() {
+		Integer a = 1;
+		Integer b = 2;
+		Integer c = 3;
+		MaxNewGenericClass<Integer> tester = new MaxNewGenericClass<Integer>(c,b,a);
+		assertEquals(c,tester.maximum());
+	}
+	
+	@Test
+	public void maxCheckForSecondPositionforInteger() {
+		Integer a = 1;
+		Integer b = 2;
+		Integer c = 3;
+		MaxNewGenericClass<Integer> tester = new MaxNewGenericClass<Integer>(a,c,b);
+		assertEquals(c,tester.maximum());
+	}
+	
+	@Test
+	public void maxCheckForThirdPositionforInteger() {
+		Integer a = 1;
+		Integer b = 2;
+		Integer c = 3;
+		MaxNewGenericClass<Integer> tester = new MaxNewGenericClass<Integer>(a,b,c);
+		assertEquals(c,tester.maximum());
+	}
+}

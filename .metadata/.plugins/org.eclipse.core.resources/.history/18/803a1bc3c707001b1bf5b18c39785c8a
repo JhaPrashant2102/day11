@@ -1,6 +1,6 @@
 package com.dummyproject;
 
-public class MaxGenericClass<T extends Comparable<T>> {
+public class MaxGenericClass<T extends Comparable> {
 	
 	private T a;
 	private T b;

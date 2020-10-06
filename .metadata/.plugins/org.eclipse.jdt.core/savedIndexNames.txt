@@ -1,8 +1,5 @@
 INDEX VERSION 1.131+C:\Users\prashant\Desktop\week1\day11\.metadata\.plugins\org.eclipse.jdt.core
 3167782242.index
 1574843208.index
-<<<<<<< HEAD
 2962230742.index
-=======
->>>>>>> master
 4263958146.index
